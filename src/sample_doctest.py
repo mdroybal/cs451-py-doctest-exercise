@@ -47,7 +47,7 @@ def get_last_half(data):
     [3, 4, 5]
     """
 
-    return  data[get_mid(data)-1:]
+    return  data[len(data)/2:]
 
 
 
